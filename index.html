@@ -104,60 +104,6 @@
       50% { opacity: 0.4; }
     }
 
-    #api-banner {
-      background: rgba(59,130,246,0.08);
-      border-bottom: 1px solid rgba(59,130,246,0.15);
-      padding: 10px 24px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-shrink: 0;
-      z-index: 9;
-    }
-
-    #api-banner input {
-      flex: 1;
-      background: rgba(0,0,0,0.3);
-      border: 1px solid rgba(59,130,246,0.3);
-      border-radius: 6px;
-      padding: 6px 12px;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 12px;
-      color: var(--text);
-      outline: none;
-    }
-
-    #api-banner input:focus { border-color: var(--accent); }
-
-    #api-banner button {
-      background: linear-gradient(135deg, var(--accent), var(--accent2));
-      border: none;
-      border-radius: 6px;
-      padding: 6px 14px;
-      font-family: 'Syne', sans-serif;
-      font-size: 12px;
-      font-weight: 600;
-      color: white;
-      cursor: pointer;
-      white-space: nowrap;
-    }
-
-    #api-banner label {
-      font-size: 11px;
-      color: #60a5fa;
-      white-space: nowrap;
-      font-weight: 500;
-    }
-
-    #api-banner a {
-      font-size: 11px;
-      color: var(--accent2);
-      text-decoration: none;
-      white-space: nowrap;
-    }
-
-    #api-banner a:hover { text-decoration: underline; }
-
     #messages {
       flex: 1;
       overflow-y: auto;
@@ -418,13 +364,6 @@
     <div class="status-dot"></div>
   </header>
 
-  <div id="api-banner">
-    <label>🔑 Gemini API Key (free):</label>
-    <input type="password" id="api-key-input" placeholder="AIza..." />
-    <button onclick="saveKey()">Save</button>
-    <a href="https://aistudio.google.com/app/apikey" target="_blank">Get free key →</a>
-  </div>
-
   <div id="messages">
     <div class="welcome" id="welcome">
       <div class="welcome-icon">iP</div>
@@ -555,17 +494,8 @@ OWNERS: Hani (#1,#8,#14,#2), Rida (#4,#9,#6,#3,#2), Maha (#13,#15,#3), Nahla (#7
 
 Be concise, use bullet points for lists, be warm and professional. Answer general questions too.`;
 
-    let apiKey = '';
     let conversationHistory = [];
     let isLoading = false;
-
-    function saveKey() {
-      const input = document.getElementById('api-key-input');
-      if (input.value.trim()) {
-        apiKey = input.value.trim();
-        document.getElementById('api-banner').style.display = 'none';
-      }
-    }
 
     function autoResize(el) {
       el.style.height = 'auto';
@@ -645,11 +575,6 @@ Be concise, use bullet points for lists, be warm and professional. Answer genera
 
     async function sendMessage() {
       if (isLoading) return;
-      if (!apiKey) {
-        alert('Please enter your Gemini API key first. Click "Get free key →" to get one.');
-        return;
-      }
-
       const input = document.getElementById('user-input');
       const text = input.value.trim();
       if (!text) return;
@@ -679,17 +604,11 @@ Be concise, use bullet points for lists, be warm and professional. Answer genera
         });
 
         const response = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
+          `/api/chat`,
           {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              contents,
-              generationConfig: {
-                temperature: 0.7,
-                maxOutputTokens: 1024,
-              }
-            })
+            body: JSON.stringify({ contents })
           }
         );
 
