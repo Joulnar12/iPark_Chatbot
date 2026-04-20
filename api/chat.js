@@ -8,7 +8,15 @@ async function loadDocs() {
     'Business Service Providers -1.csv',
     'Investors Outreach, Onboarding and Matching.csv',
     'Mentors Onboarding and Due Diligence.csv',
-    'Partners.csv'
+    'Partners.csv',
+    'Roar_car_deck',
+    'Roar_presentation',
+    'Zoho Workflows - B&A Workflow.csv',
+    'Zoho Workflows - GTM Workflow.csv',
+    'Zoho Workflows - Growth Program.csv',
+    'Zoho Workflows - IVP Workflow.csv',
+    'Zoho Workflows - Onboarding flows.csv',
+    'Zoho Workflows - PIC Workflow.csv'
   ];
 
   const repoOwner = 'Joulnar12';
