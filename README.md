@@ -12,36 +12,6 @@ Built with OpenAI GPT-4o, deployed on Vercel, and fed by documents stored in thi
 3. The documents are injected into the GPT-4o system prompt
 4. The bot answers strictly based on those documents
 
----
-
-## Folder Structure
-iPark_Chatbot/
-├── api/
-│   └── chat.js                          # Backend serverless function (Vercel)
-├── docs/                                # All knowledge base documents
-│   ├── 260404 BCP1
-│   ├── 260404 BCP2
-│   ├── 260404 BCP3
-│   ├── 260404 Risk Assessment Matrix -1.csv
-│   ├── 260404 Risk Assessment Matrix -2.csv
-│   ├── Business Service Providers -1.csv
-│   ├── Investors Outreach, Onboarding and Matching.csv
-│   ├── Mentors Onboarding and Due Diligence.csv
-│   ├── Partners.csv
-│   ├── Roar_car_deck
-│   ├── Roar_presentation
-│   ├── Zoho Workflows - B&A Workflow.csv
-│   ├── Zoho Workflows - GTM Workflow.csv
-│   ├── Zoho Workflows - Growth Program.csv
-│   ├── Zoho Workflows - IVP Workflow.csv
-│   ├── Zoho Workflows - Onboarding flows.csv
-│   └── Zoho Workflows - PIC Workflow.csv
-├── index.html                           # Frontend chat interface
-├── package.json                         # Must include "type":"module"
-├── vercel.json                          # Vercel routing config
-└── README.md                            # This file
----
-
 ## How to Add a New Document
 
 ### Step 1 — Prepare the file
@@ -52,7 +22,7 @@ iPark_Chatbot/
 | `.pptx` | Convert to `.txt` first (ask Claude to extract slide text) |
 | `.docx` | Convert to `.txt` first (copy-paste content) |
 
-> ⚠️ Binary files (PDF, PPT, DOCX) cannot be read directly by the bot. Always convert to `.txt` or `.csv` before uploading.
+> Binary files (PDF, PPT, DOCX) cannot be read directly by the bot. Always convert to `.txt` or `.csv` before uploading.
 
 ### Step 2 — Upload to GitHub
 1. Go to the `/docs` folder in this repo
@@ -139,10 +109,3 @@ The bot is configured to:
 | Deployment not updating | Commit not pushed to `main` | Make sure you committed to `main` branch |
 | PDF/PPT content not loading | Binary file uploaded directly | Convert to `.txt` first |
 
----
-
-## Future Planned Features
-
-- [ ] Zoho CRM integration for real-time data
-- [ ] Google Sheets sync for live operational data
-- [ ] Automatic document registration (no manual `docFiles` update needed)
