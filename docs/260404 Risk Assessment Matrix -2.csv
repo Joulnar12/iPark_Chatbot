@@ -1,0 +1,35 @@
+﻿Likelihood Levels,,,,
+Level,Category,Description,,
+5,Certain,Expected to occur frequently in most circumstances; in most weeks or months ,,
+4,Likely,"Will probably occur in most circumstances; several times 
+a year ",,
+3,Possible,Might occur occasionally; every 1-2  years,,
+2,Unlikely,Could happen but not expected; every 2-5 years,,
+1,Rare,Highly unlikely but possible; every 5 years or more,,
+,,,,
+Impact Levels,,,,
+Level,Category,Description,,
+5,Catastrophic,Will affect institution's existence and mission,,
+4,Major,Will impact the achievement of multiple objectives,,
+3,Moderate,Will impact the achievement of some objectives,,
+2,Minor,May have some undesirable outcomes,,
+1,Insignificant,No noticeable impact on objectives,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+Risk Criteria,,,,
+Score,Category,Description,Action,Escalation
+16-25,Extreme ,Unacceptable risk,Immediate treatment required,Board of Trustees
+10-15,High,Significant risk,Treatment plan required,Senior Leadership 
+5-9,Medium,Moderate risk,Ongoing monitoring; improve controls if cost effective,Unit Head
+1-4,Low,Acceptable risk,Managed by routine procedures,No escalation
+,,,,
+Exception,,,,
+"If Impact = Catastrophic (5) → risk is at least High (or requires senior review), even if likelihood is low.",,,,
+"This especially applies to life-safety events, major regulatory/accreditation exposure, major financial or operational continuity risks, and serious misconduct/Title IX-type risks.",,,,
+Keep the numeric score (for consistency) but require senior review and a treatment plan because the consequence is catastrophic.,,,,

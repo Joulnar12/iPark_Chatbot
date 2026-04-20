@@ -1,0 +1,84 @@
+﻿,,,,,,,,,,,,,,
+,,,,2025-26,,,,,2026-27,,,,,
+Domain,Area,"Type
+specify the exact risk type",Description ,L,I,RR,"Existing Mitigation Measures
+(existing policies, procedures, plans)","Additional Mitigation Measures (What else to do to control the risk; new/proposed policies, procedures, plans)",L,I,RR,Responsibility,Timeframe,Status
+"Compliance, Legal, and Regulatory",Contractual and Legal Obligations,"Contract breaches
+Intellectual property disputes
+Confidentiality breaches, non-compliance with grant/donor terms, product or service liability, disputes with vendors, startups, consultants, or partners","iPark operates through multiple partnerships, donor-funded programs, consultants, startups, and external service providers. Risks may arise from unclear deliverables, weak contract management, IP ownership ambiguity, startup misuse of third-party IP, and non-compliance with AUB legal and procurement requirements.",3,4,12,AUB legal/procurement review for agreements; donor/grant compliance checks; partner and startup engagement routed through institutional approval channels.,"Develop standard MoUs, mentor/consultant/startup templates, and IP/confidentiality clauses; maintain a contract register and quarterly compliance review.",2,4,8,"iPark Director (Maha);
+AUB Legal Counsel;
+Core Program Manager (Hani)","Q3 2027 set-up;
+quarterly review thereafter",In Progress
+Financial,Funding and Budgeting,"Inadequate funding allocation, budget overruns, inflexible budgets, cash flow pressure, exchange-rate exposure, and dependency on external funding","Limited iPark funding and resources, with significant dependence on donor support and project-based financing. Budget execution may be affected by inflation, currency volatility, delayed approvals, and restrictions on reallocating funds across budget lines.",2,4,8,Annual budgeting and donor-funded program tracking are in place; strategic goal targets 20% operating cost coverage by 2027 and 50% by 2030.,"Implement a diversified revenue model (academy, soft-landing, corporate innovation, sponsorships); build rolling forecasts, scenario plans, and a reserve buffer.",2,4,8,"iPark Director (Maha);
+Community Growth & Outreach Officer (Rida);
+Ops & Platform Manager (Jamal)","2025-2030;
+revenue model by Q2 2026;
+annual reforecast",In Progress
+,Operational Costs and Expenses,"Rising operational costs, uninsured liabilities, government-mandated cost adjustments, benefits inflation, and uncontrolled overhead growth","Budgetary and procurement constraints under AUB processes may delay essential expenditures. Lebanon’s inflation, service disruptions, and imported-cost exposure may increase venue, travel, utilities, software, logistics, and operating costs.",3,4,12,Budget monitoring exists and purchases follow AUB procurement and approval procedures.,"Set procurement calendar, approved vendor pool, cost-control thresholds, and quarterly variance reviews; increase digital delivery where feasible to reduce venue/travel costs.",2,4,8,"Ops & Platform Manager(Jamal);
+AUB Procurement/Finance","Q2-Q4 2026 implementation;
+quarterly review",In Progress
+,Revenue and Fundraising Stability,"Revenue shortfalls, missed fundraising targets, donor concentration risk, delayed disbursements, and weak pipeline diversification","iPark’s sustainability depends on maintaining donor confidence, demonstrating impact, and expanding partnerships. A narrow funding base or delays in grant renewal could directly affect the incubation programm and startup support.",2,4,8,"Strategic plan includes fundraising, alumni activation, investor engagement, and impact reporting to support donor confidence and renewal.
+On-board Revenue generating programs like I2V program funded by MCF
+","Build a multi-year funding pipeline by segment (donors, sponsors, corporates, diaspora); standardize proposal/case-for-support materials; monitor donor concentration risk.
+Apply for international and Local grant such Horizon",2,4,8,"iPark Director (Maha);
+Community Growth & Outreach Officer (Rida);
+AUB Advancement","2025-2030;
+pipeline and materials by Q3 2026",In Progress
+Operational,Employee Benefits and Workforce Capacity,"Inadequate benefits offering, inequitable benefits distribution, gaps in benefits enrollment and eligibility, talent attraction and retention challenges, staff burnout, and overload","Small internal team relative to iPark’s ambitions, number of programs, stakeholder expectations, and event calendar. Competition from regional and international employers may make retention difficult, especially for high-performing staff.",4,3,12,"Roadmap assigns clear role ownership; SPIRAL values require regular check-ins, accountability, and staff learning/growth.","Create a workforce plan with cross-training, backup coverage, workload planning, and retention/recognition measures; fill key platform/R&D roles as budget allows.",3,3,9,"iPark Director (Maha);
+Ops & Platform Manager (Jamal);
+AUB HR","Q2 2026 workforce plan;
+semester reviews",In Progress
+,Business Continuity and Disruption (for current activities and services),"Supply chain disruptions, natural disasters, force majeure, IT/system failure, utility outages, pandemic/public health events, political instability, staff unavailability, crisis-management failure, and weak continuity planning","Ongoing economic and political instability in Lebanon, including currency depreciation and service disruption risks. iPark activities may be interrupted by transport constraints, internet/power issues, banking delays, or sudden security escalation.",4,3,12,"Hybrid delivery, external experts, and periodic roadmap/KPI reviews provide some operational resilience.","Document and test a business continuity plan covering remote delivery, alternate venues/providers, crisis communications, data backup, and incident escalation.",2,3,6,"iPark Director (Maha);
+Ops & Platform Manager (Jamal);
+AUB IT/Facilities/Security","BCP by Q3 2026;
+annual drill and update",To be Initiated
+,War and Emergency Disruption,"Armed conflict, localized insecurity, displacement, interruption of office access, trauma-related productivity loss, reduced mobility, event cancellation, and business interruption","Ongoing war-related risks in Lebanon and the specific exposure of iPark’s location at Beirut Digital District (BDD), including: 
+1) operational disruption, 
+2) staff displacement, 
+3) delays in core program delivery, 
+4) startup failures or low survival rates,
+5) reduced mentor/investor participation, and 
+6) reputational and fundraising pressure during crisis periods.",4,5,20,International pathways are being developed through Cyprus/EU and GCC partnerships; programs can shift formats when conditions deteriorate.,Set emergency operating triggers for remote delivery/relocation; maintain staff/startup contact trees; fast-track soft-landing referrals and funder communications during crises.,4,4,16,"iPark Director (Maha);
+Community Growth & Outreach Officer (Rida);
+Ops & Platform Manager (Jamal)","Immediate and ongoing;
+Cyprus pathway by Q4 2027",In Progress
+,Business Processes and Systems,"Inefficient processes and resource utilization, fragmented systems, process silos, lack of integration, weak internal coordination, unclear process ownership, poor documentation, reporting errors, and administrative bottlenecks","iPark relies on coordination across AUB units, external stakeholders, and multiple platforms. Risks include unclear handoffs, inconsistent records, delayed approvals, duplicate work, and dependency on manual tracking across procurement, finance, program delivery, and reporting processes.",4,3,12,"Operational roadmap defines owners, milestones, KPIs, and review cadence; CRM/Zoho tracking is part of planned execution.","Map end-to-end processes (intake, selection, procurement, reporting); define RACI/SLAs; automate standard workflows and records in CRM/project trackers.",2,3,6,"Ops & Platform Manager (Jamal);
+All program owners","2025-2027 design and implementation;
+quarterly review",In Progress
+,"Technology, Data, and Cybersecurity","Data loss, unauthorized access, weak access control, cyber incidents, system outages, poor backup practices, and inadequate recovery measures","iPark increasingly depends on forms, cloud files, event platforms, and startup data. Weak governance over shared drives, external tools, or startup information could affect confidentiality, donor trust, and operational continuity.",3,4,12,Use of CRM/cloud tools is planned and AUB IT controls apply to institutional systems and accounts.,"Create data governance rules, access matrix, MFA/secure-sharing requirements, backup schedule, and incident-response protocol; review third-party tools annually.",3,3,9,"Ops & Platform Manager;
+AUB IT;
+iPark Director","Q3 2026 baseline controls;
+annual audit thereafter",To be Initiated
+Strategic,Geopolitical and Security Threats,"War, armed conflict, border disruption, international perception issues, sanctions exposure, travel disruption, and reduced investor confidence","Macroeconomic and geopolitical instability may limit access to funding, partnerships, international travel, startup expansion, and founder resilience. Lebanon risk perception may also reduce participation from mentors, investors, and global ecosystem partners.",4,4,16,Annual risk assessment and global pathways (Cyprus/GCC/EU) help diversify exposure beyond Lebanon.,"Maintain a country-risk watchlist with trigger-based program adjustments; diversify investor, mentor, and funding geographies; protect critical relationships through remote engagement.",4,3,12,"iPark Director (Maha);
+Community Growth & Outreach Officer (Rida);
+Steering Committee","Immediate and ongoing;
+reviewed in Q2/Q3 cycles",In Progress
+,Reputation and Brand,"Adverse publicity, stakeholder dissatisfaction, weak communication, brand dilution, low awareness, inconsistency in service quality, and damage to institutional reputation","iPark’s reputation may be affected if startups fail without adequate support, if commitments are delayed, or if external stakeholders perceive insufficient structure, follow-through, or visibility of impact. Reputational risks also extend to AUB given institutional affiliation.",2,4,8,"Program milestones, founder support, demo days, and the planned annual Portfolio & Outcomes Report help evidence impact and manage expectations.",Track founder/partner satisfaction and escalation logs; prepare a rapid issue-response protocol and publish outcome stories regularly.,2,3,6,"iPark Director (Maha);
+Core Program Manager (Hani);
+Comms/Marketing Lead","Q2 2026 standards;
+annual reporting from 2026",In Progress
+,Startups / Venture Portfolio Performance,"Low application quality, weak startup retention, founder drop-off, poor venture survival, inability to raise funding, poor market readiness, and weak founder execution","Startups face funding volatility due to limited local VC activity, low angel liquidity, weak customer purchasing power, and difficult regional conditions. Brain drain also reduces retention of high-potential entrepreneurial talent and may affect founder continuity.",4,4,16,"Multi-stage support (IVP, Build & Accelerate, GTM), PS-fit criteria, coaching, mentor access, and investor matchmaking are core controls.",Tighten selection and milestone gates; segment support by stage/sector; add early-warning reviews for at-risk startups and targeted fundraising/customer-access support.,3,4,12,"Core Program Manager (Hani);
+Support Program Manager (Jamal);
+Community Growth & Outreach Officer (Rida)","2025-2030;
+PS-fit model embedded by 2026",Ongoing
+,Program Offerings,"Curriculum relevance gaps, outdated content, delays in program design or delivery, weak implementation quality, low attractiveness to founders, insufficient program diversity, and mismatch with market needs","iPark must continuously adapt offerings to startup needs, investor expectations, and emerging sectors. Programs risk losing relevance if content, mentors, formats, or outcomes do not respond to the realities of Lebanese and regional founders.",3,4,12,"Annual curriculum review, e-modules, micro-credentials, and mentor/user feedback are built into the education-at-scale roadmap.","Create a formal content-refresh calendar, QA rubric, and market-feedback loop; pilot new modules in healthcare, sustainability, digital, and R&D verticals.",3,3,9,"Core Program Manager (Hani);
+Ops & Platform Manager (Jamal);
+iPark Director (Maha)","2025-2028 build-out;
+annual review thereafter",In Progress
+,"Advancement, Development, and Fundraising","Limited or declining donor and alumni engagement, missed fundraising targets, weak case for support, and underdeveloped sponsorship pipeline",Limited funding pool in Lebanon and strong dependence on donor support create pressure to diversify funding sources. Low alumni engagement or insufficient corporate partnerships may constrain program expansion and sustainability.,2,4,8,"Investor Hub, Angel Investor Network, alumni roadshows, and impact reporting are already included in the strategic plan.","Create a segmented advancement plan with sponsorship packages, named-program opportunities, stewardship calendar, and clear pipeline ownership with AUB Advancement.",2,3,6,"iPark Director (Maha);
+Community Growth & Outreach Officer (Rida);
+AUB Advancement","Q2 2026 launch;
+2025-2030 ongoing",In Progress
+,Competition and Market Position,"Loss of market share, declining attractiveness, increased regional competition, weak differentiation, and inability to scale influence","iPark competes for founders, donors, mentors, and visibility against regional hubs such as Dubai, Riyadh, Doha, and Cyprus. Limited global visibility and constrained local resources may reduce competitiveness unless iPark clearly differentiates its value proposition.",4,4,16,"iPark leverages AUB brand, BDD location, research capacity, LEAN partnerships, and international ecosystem links as differentiators.","Sharpen positioning around Startups Launch Pad to join Global Acceleration Programs (YC, Techstars, Global 500, Antler, SOSV, Skydeck, Alchemist..), Global South entrepreneurship, research-to-impact, and Lebanon-to-global pathways; expand visibility through fairs, roadshows, and partner channels.",3,3,9,"iPark Director (Maha);
+Community Growth & Outreach Officer (Rida);
+Comms/Marketing Lead","2025-2030;
+refreshed positioning by Q3 2026",In Progress
+,Business Development and Growth,"Partnership failures, missed growth opportunities, regulatory access barriers, weak pipeline development, and failure to expand regionally or sectorally","Growth may be constrained by limited staff capacity, fragile operating conditions, slow decision cycles, and challenges in securing new partnerships, soft-landing pathways, sector verticals, and revenue-generating opportunities.",4,3,12,"Roadmap includes Cyprus Innovation Center, soft-landing packages, corporate innovation offerings, and partnership-led growth initiatives.",Prioritize partnership pipeline by strategic value and revenue potential; standardize due diligence/MoUs; track funnel conversion and margin by product line.,3,3,9,"iPark Director (Maha);
+Community Growth & Outreach Officer (Rida);
+Ops & Platform Manager (Jamal)","2025-2030;
+productization and pipeline by Q4 2026",In Progress
+,Stakeholder and Ecosystem Engagement,"Weak mentor engagement, low investor participation, partner disengagement, inconsistent startup-to-support matching, and ecosystem fragmentation","iPark’s success depends on maintaining an active network of mentors, donors, investors, experts, and institutional partners. In crisis periods, stakeholder fatigue and competing priorities may reduce engagement and program value.",2,4,8,"LEAN participation, Investors Hub, alumni activation, mentor pool, and cross-unit collaboration already support stakeholder engagement.","Build a stakeholder CRM and engagement calendar; define tailored value propositions for mentors, alumni, investors, and partners; review dormant relationships quarterly.",2,3,6,"Ops & Platform Manager (Jamal)Community Growth & Outreach Officer (Rida);
+","2025-2030;
+CRM discipline by Q3 2026",Ongoing
+,,,,,,,,,,,,,,
+,Fraud (green),,add all current controls,,,,Managed thru rotuine procedures,,,,,,,
