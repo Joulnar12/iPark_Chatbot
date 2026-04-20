@@ -1,0 +1,93 @@
+Business Continuity Plan,,,,,,,,
+Critical functions within Unit – iPark,,,,,,,,
+Critical function / process,"Key personnel
+(alternate staff)",Resources required¹,Potential impacts of a major disruption²,"Recovery Time
+Objective RTO⁴","Recovery Point
+Objective RPO⁴","Upstream/Downstream
+Dependencies⁵",Recovery strategies⁶,Responsibility
+"1. Strategic leadership, incident command & stakeholder communications","Primary: Maha (Director)
+Alternate: Strategic: Dr. Asfour, Jamal (Acting Deputy Director / Ops & Platform Manager)
+Support: Mary (logging / coordination)","Emergency contact tree; staff, donor, partner and startup lists; approved messaging templates; laptops and mobile phones; internet/hotspot and power banks; Zoom / Teams / WhatsApp / email; latest strategic plan, risk matrix and priority tracker.","Delayed decisions, unclear priorities, inconsistent stakeholder communication, staff safety gaps, reputational damage, missed approvals/reporting, and slower recovery across all other functions.",4 hours,1 week,"Upstream:
+Downstream:
+AUB CITO / leadership; HR; IT; security; BDD / facility management; partners; startups; media / communications.","• Activate BCP and confirm staff safety / availability within 2 hours.
+• Jamal assumes decision authority if Maha is unavailable.
+• Move command and coordination to remote mode immediately.
+• Issue one internal update and one stakeholder-facing update within 24 hours.
+• Keep offline / phone copy of priority contacts and current commitments.
+• Activate off-internet communication mode and designated survivor.","Maha
+Backup: Jamal"
+"2. Program delivery & startup portfolio support (IVP, Build & Accelerate, GTM, Academy)","Primary: Hani (Program Manager)
+Alternates: Maria (Program Coordinator), Jamal
+Escalation: Maha",Curricula and session plans; mentor and coach roster; startup portfolio tracker; CRM / Zoho; Zoom / LMS; evaluation rubrics; founder contact list; program calendars; event / training budget.,"Cancelled or delayed sessions, founder disengagement, missed milestones, weaker startup outcomes, donor KPI slippage, lower satisfaction, and reputational impact if founders lose confidence.",48 hours,1 business day,Startups; mentors; faculty; external experts; AUB IT / AUBx; operations support; venues / BDD; communications team.,"• Prioritize active cohorts, startups near deadlines, and fundraising-critical teams.
+• Shift workshops, mentoring and office hours to remote delivery within 24–48 hours.
+• Use backup facilitators / recorded modules if primary staff are unavailable.
+• Extend deadlines up to one week when justified and communicate revised calendars clearly.
+• Maintain weekly founder check-ins until normal cadence resumes.","Hani
+Operational backup: Maria
+Management backup: Jamal"
+"3. Operations, finance, procurement & vendor management","Primary: Jamal
+Support: Mary (Operations Support Coordinator)
+Alternate: Maha","Budget tracker; purchase requests; vendor list and contracts; payment schedule; AUB finance / procurement access; banking channels; inventory of laptops, modems and event supplies; policy / compliance files.","Inability to pay vendors / trainers, event and program delays, compliance issues, contract breaches, cost overruns, and disruption to critical services needed by the whole unit.","24 hours for triage;
+3 business days for workaround execution",1 business day,AUB Finance; Procurement; Legal; HR; donors; vendors; banks; BDD; service providers.,"• Maintain a ranked list of critical payments and approvals.
+• Keep digital copies of budgets, contracts and open purchase requests.
+• Escalate blocked critical approvals through Maha / AUB leadership.
+• Pre-identify backup vendors for internet, printing, catering, transport and AV.
+• Defer non-essential spend and document all exceptions / donor implications.","Jamal
+Support: Mary
+Escalation: Maha"
+"4. Platforms, records, KPI reporting & data protection","Primary: Jamal
+Alternates: Sami & Ali","Add offline backup and manual best alternet processes for critical functions.
+Shared drives; CRM / Zoho; Forms; dashboards; KPI tracker; LMS; laptops; cloud storage; access credentials; MFA; hotspot / power backup; cyber incident contacts.","Loss of records, inability to track startups / KPIs, delayed donor and management reporting, confidentiality breaches, and prolonged operational downtime if staff cannot access core files.","8 hours for priority files;
+24 hours for full environment",4 hours,AUB IT; Google / Microsoft / SaaS providers; internet and electricity; staff devices; compliance / legal when incidents occur.,"• Store all critical records in approved shared drives, not personal devices.
+• Use MFA, role-based access and immediate password reset for compromised accounts.
+• Export CRM / KPI data weekly and keep a monthly offline archive.
+• Use a local backup tracker template if systems are unavailable, then sync when restored.
+• Notify AUB IT and leadership immediately for cyber or data incidents.","Jamal
+Backup admin: Mary
+Data owner support: Hani"
+"5. Community outreach, founder pipeline & external communications","Primary: Rida (Community Outreach & Growth Officer)
+Alternates: Maria, Hani",Outreach calendar; CRM and mailing lists; website and social channels; design templates; partner / university contacts; application forms; media assets.,"Weak founder pipeline, missed campaigns, lower event attendance, slower progress on access / inclusion targets, reduced visibility, and loss of market momentum.",48 hours,1 business day,Universities / hubs; AUB communications; website / social platforms; design support; program team; CRM / forms.,"• Preserve active recruitment calls and application deadlines first.
+• Shift outreach to digital-only channels if physical visits / events are disrupted.
+• Use pre-approved status notices and alternate channels (email, LinkedIn, WhatsApp).
+• Re-sequence the communications calendar around the disruption.
+• Keep one updated partner / press / founder contact list accessible to the team.","Rida
+Backup: Maria"
+"6. Investor, alumni, donor & partnership management / revenue generation","Primary: Maha and Rida
+Alternate: Jamal",Investor / donor CRM; proposal and sponsorship decks; MoUs / contracts; revenue dashboard; meeting calendar; partner notes; travel and event plans; Cyprus / GCC soft-landing files.,"Missed renewals and fundraising opportunities, weaker cost-recovery progress, partner disengagement, delayed soft-landing and business development activity, and reduced confidence in iPark delivery.",3 business days,1 business day,AUB Advancement / Alumni Relations; Legal; Finance; donors; investors; partners; AUB Mediterraneo / Cyprus; travel / logistics providers.,"• Prioritize active proposals, renewals and near-term partner meetings.
+• Convert meetings and roadshows to virtual format whenever travel is disrupted.
+• Send concise impact / continuity updates to priority donors and partners.
+• Maintain one live partnership pipeline tracker owned by Rida and reviewed by Maha / Jamal.
+• Re-baseline revenue targets if disruption exceeds two weeks.","Maha (executive sponsor)
+Rida (day-to-day)
+Backup: Jamal"
+"7. Events, demo days, investor rooms & ecosystem convening","Primary: Rida (Investors & Community) and Hani (PIC and Demo Days)
+Operations Support: Mary
+Event Support: Lara
+Alternates: Maha and Jamal",Run sheets; registration lists; speaker / startup confirmations; venue and vendor contacts; AV kit; livestream / webinar tools; transport and safety instructions; branded assets.,"Event cancellation or postponement, loss of sponsor value, reduced startup exposure, sunk costs, safety concerns, and reputational damage if participants are not informed quickly.","Same day decision if event is within 72 hours;
+otherwise 5 business days to re-baseline",1 business day,BDD / venues; AUB events / communications; vendors; speakers; startups; internet / power; transport and security conditions.,"• Apply a go / no-go decision tree and remote fallback plan.
+• Notify speakers, startups, vendors and attendees within 2 hours of a major change decision.
+• Preserve registration data, recordings and presentation files centrally.
+• Negotiate reschedule clauses / credits with vendors.
+• Keep a standard virtual-event template ready for urgent conversion.","Mary (operations); Maria (startups);
+Rida (external comms: speakers, attendees)
+Backup: Hani"
+"8. Team staffing, cross-coverage, safety & wellbeing","Primary: Maha and Jamal
+Support: Mary
+Functional backups: Hani, Maria, Rida",Role backup matrix; contact tree; leave / travel calendar; remote-work kits; laptops / modems; wellbeing referral information; task prioritization list.,"Single points of failure, staff burnout, unsafe staffing decisions, missed deadlines, and service gaps across programs, operations, communications and stakeholder management.",24 hours,Current business day,All staff; AUB HR; security; internet / power access; supervisors; emergency contacts.,"• Run a daily staffing / wellbeing check during active disruption periods.
+• Activate cross-coverage and suspend low-priority work first.
+• Move all staff to remote work when safety or mobility is compromised.
+• Reassign responsibilities using this BCP before approving external commitments.
+• Debrief after every major disruption and update the backup matrix.",Maha and Jamal
+,,,,,,,,
+,,,,,,,,
+Planning assumptions used for this draft,,,,,,,,
+"•  BCP prepared from iPark strategic plan, operational roadmap, risk assessment matrix, and staffing note supplied in the request.",,,,,,,,
+"• Primary disruption scenarios reflected here: war / security escalation, internet or power outage, staff unavailability, cyber or cloud-system interruption, procurement / finance delays, and transport / venue disruption.",,,,,,,,
+"• Default recovery mode: remote-first delivery using cloud files, Zoom / webinar tools, email and WhatsApp, with alternate work from home, AUB space or partner space when safe and available.",,,,,,,,
+"• Minimum service levels during disruption: staff safety checks, stakeholder communications, startup cohort continuity, critical approvals / payments, data access, and donor / management reporting.",,,,,,,,
+,,,,,,,,
+"¹ Resources required: the minimum supplies, facilities, technologies, documents, vendors, records and access needed to perform the function.",,,,,,,,
+"² Impact assessment covers revenues / funding, costs, health & safety, service delivery, reputation, legal and compliance exposure.",,,,,,,,
+⁴ RTO = maximum time the function can be down before significant problems occur. RPO = maximum acceptable amount of data / record loss measured back to the last valid backup or update.,,,,,,,,
+⁵ Dependencies include both departments / partners iPark relies on and groups that rely on iPark outputs.,,,,,,,,
+"⁶ Recovery strategies should identify must-have resources and systems, role backups, and the communications required to keep staff, startups, donors, investors and partners informed.",,,,,,,,
