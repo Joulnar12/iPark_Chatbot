@@ -22,7 +22,6 @@ async function loadDocs() {
   const repoOwner = 'Joulnar12';
   const repoName = 'iPark_Chatbot';
 
-  // Fetch ALL docs in parallel instead of one by one
   const results = await Promise.all(
     docFiles.map(async (file) => {
       try {
@@ -53,9 +52,11 @@ export default async function handler(req, res) {
   if (!messages || !Array.isArray(messages)) return res.status(400).json({ error: 'Invalid messages' });
 
   const apiKey = process.env.OPENAI_API_KEY;
+  console.log('DEBUG — API key present:', !!apiKey);
   if (!apiKey) return res.status(500).json({ error: 'API key not configured' });
 
   const docs = await loadDocs();
+  console.log('DEBUG — Docs loaded, total length:', docs?.length || 0);
 
   const systemPrompt = `You are iPark's internal AI assistant, exclusively for the iPark team at the Talal and Madiha Zein AUB Innovation Park.
 You answer questions strictly based on the iPark documents provided below. These include the strategic roadmap, VITAL framework goals, risk management plans, workflow diagrams, and business continuity documents.
@@ -71,6 +72,8 @@ IMPORTANT RULES:
 === iPARK DOCUMENTS ===
 ${docs || 'No documents loaded yet.'}
 === END OF DOCUMENTS ===`;
+
+  console.log('DEBUG — System prompt length:', systemPrompt.length);
 
   try {
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
@@ -89,13 +92,17 @@ ${docs || 'No documents loaded yet.'}
       })
     });
 
+    console.log('DEBUG — OpenAI response status:', response.status);
     const data = await response.json();
+    console.log('DEBUG — OpenAI response error:', data.error || 'none');
+
     if (data.error) return res.status(500).json({ error: data.error.message });
 
     const reply = data.choices?.[0]?.message?.content || 'Sorry, I could not generate a response.';
     res.status(200).json({ reply });
 
   } catch (err) {
+    console.error('DEBUG — Catch error:', err.message);
     res.status(500).json({ error: err.message });
   }
 }
