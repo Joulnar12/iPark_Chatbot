@@ -22,23 +22,28 @@ async function loadDocs() {
   const repoOwner = 'Joulnar12';
   const repoName = 'iPark_Chatbot';
 
-  let docsContent = '';
-  for (const file of docFiles) {
-    try {
-      const res = await fetch(
-        `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/docs/${encodeURIComponent(file)}`
-      );
-      if (res.ok) {
-        const text = await res.text();
-        docsContent += `\n\n=== ${file} ===\n${text}`;
-      } else {
-        console.error(`Could not fetch ${file}: ${res.status}`);
+  // Fetch ALL docs in parallel instead of one by one
+  const results = await Promise.all(
+    docFiles.map(async (file) => {
+      try {
+        const res = await fetch(
+          `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/docs/${encodeURIComponent(file)}`
+        );
+        if (res.ok) {
+          const text = await res.text();
+          return `\n\n=== ${file} ===\n${text}`;
+        } else {
+          console.error(`Could not fetch ${file}: ${res.status}`);
+          return '';
+        }
+      } catch (e) {
+        console.error(`Failed to fetch ${file}:`, e.message);
+        return '';
       }
-    } catch (e) {
-      console.error(`Failed to fetch ${file}:`, e.message);
-    }
-  }
-  return docsContent;
+    })
+  );
+
+  return results.join('');
 }
 
 export default async function handler(req, res) {
