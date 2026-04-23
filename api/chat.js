@@ -30,19 +30,19 @@ async function loadDocs() {
         );
         if (res.ok) {
           const text = await res.text();
-          return `\n\n=== ${file} ===\n${text}`;
-        } else {
-          console.error(`Could not fetch ${file}: ${res.status}`);
-          return '';
+          // Limit each file to 2000 characters to avoid context overflow
+          return `\n\n=== ${file} ===\n${text.slice(0, 2000)}`;
         }
+        return '';
       } catch (e) {
-        console.error(`Failed to fetch ${file}:`, e.message);
         return '';
       }
     })
   );
 
-  return results.join('');
+  // Limit total docs to 60000 characters
+  const combined = results.join('');
+  return combined.slice(0, 60000);
 }
 
 export default async function handler(req, res) {
