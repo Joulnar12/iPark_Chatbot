@@ -1,37 +1,38 @@
 async function loadDocs() {
   const docFiles = [
-    '260404 BCP1',
-    '260404 BCP2',
-    '260404 BCP3',
-    '260404 Risk Assessment Matrix -1.csv',
-    '260404 Risk Assessment Matrix -2.csv',
-    'Business Service Providers -1.csv',
-    'Investors Outreach, Onboarding and Matching.csv',
-    'Mentors Onboarding and Due Diligence.csv',
-    'Partners.csv',
-    'Roar_car_deck',
-    'Roar_presentation',
-    'Zoho Workflows - B&A Workflow.csv',
-    'Zoho Workflows - GTM Workflow.csv',
-    'Zoho Workflows - Growth Program.csv',
-    'Zoho Workflows - IVP Workflow.csv',
-    'Zoho Workflows - Onboarding flows.csv',
-    'Zoho Workflows - PIC Workflow.csv'
+    { name: '260404 BCP1', limit: 3000 },
+    { name: '260404 BCP2', limit: 3000 },
+    { name: '260404 BCP3', limit: 3000 },
+    { name: '260404 Risk Assessment Matrix -1.csv', limit: 3000 },
+    { name: '260404 Risk Assessment Matrix -2.csv', limit: 3000 },
+    { name: 'Business Service Providers -1.csv', limit: 3000 },
+    { name: 'Investors Outreach, Onboarding and Matching.csv', limit: 3000 },
+    { name: 'Mentors Onboarding and Due Diligence.csv', limit: 3000 },
+    { name: 'Partners.csv', limit: 3000 },
+    { name: 'Roar_car_deck', limit: 4000 },
+    { name: 'Roar_presentation', limit: 4000 },
+    { name: 'Zoho Workflows - B&A Workflow.csv', limit: 3000 },
+    { name: 'Zoho Workflows - GTM Workflow.csv', limit: 3000 },
+    { name: 'Zoho Workflows - Growth Program.csv', limit: 3000 },
+    { name: 'Zoho Workflows - IVP Workflow.csv', limit: 3000 },
+    { name: 'Zoho Workflows - Onboarding flows.csv', limit: 3000 },
+    { name: 'Zoho Workflows - PIC Workflow.csv', limit: 3000 },
+    { name: 'iPark Operational Roadmap rev1 .csv', limit: 6000 },
+    { name: '251120 iPark Operational Roadmap Rev 4.csv', limit: 6000 }
   ];
 
   const repoOwner = 'Joulnar12';
   const repoName = 'iPark_Chatbot';
 
   const results = await Promise.all(
-    docFiles.map(async (file) => {
+    docFiles.map(async ({ name, limit }) => {
       try {
         const res = await fetch(
-          `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/docs/${encodeURIComponent(file)}`
+          `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/docs/${encodeURIComponent(name)}`
         );
         if (res.ok) {
           const text = await res.text();
-          // Limit each file to 2000 characters to avoid context overflow
-          return `\n\n=== ${file} ===\n${text.slice(0, 2000)}`;
+          return `\n\n=== ${name} ===\n${text.slice(0, limit)}`;
         }
         return '';
       } catch (e) {
@@ -40,9 +41,9 @@ async function loadDocs() {
     })
   );
 
-  // Limit total docs to 60000 characters
+  // Total cap at 100000 characters — safe for gpt-4o without crashing
   const combined = results.join('');
-  return combined.slice(0, 60000);
+  return combined.slice(0, 100000);
 }
 
 export default async function handler(req, res) {
